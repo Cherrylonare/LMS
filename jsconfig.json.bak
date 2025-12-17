@@ -1,0 +1,12 @@
+// client/jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@/": [""]
+      // "@/components/": ["components/"],
+      // "@/components/ui/": ["components/ui/"]
+    }
+  },
+  "include": ["src/*/"] 
+}
